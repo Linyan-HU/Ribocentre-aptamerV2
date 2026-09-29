@@ -1,0 +1,181 @@
+---
+
+title: "Page Not Found - Ribocentre Aptamer"
+layout: default
+excerpt: "The page does not exist. Use quick navigation or optional family-reunion resources."
+
+sitemap: false
+permalink: /404.html
+---
+
+<style>
+  * { box-sizing: border-box; }
+  .nf-wrap {
+    max-width: 1040px;
+    margin: 2rem auto 3rem;
+    padding: 0 1rem;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  }
+
+  .nf-panel {
+    background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 65%);
+    color: #1a1f36;
+    border: 1px solid #dbe2f3;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 16px 40px rgba(18, 35, 72, 0.12);
+  }
+
+  .nf-badge {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    background: #1c2f6e;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    border-radius: 999px;
+    padding: 0.25rem 0.8rem;
+    font-size: 0.82rem;
+  }
+
+  .nf-title {
+    margin: 0;
+    font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+    color: #0e1c49;
+  }
+
+  .nf-subtitle {
+    margin: 0.9rem 0 1.4rem;
+    line-height: 1.7;
+    color: #344160;
+    max-width: 760px;
+  }
+
+  .nf-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .nf-actions a {
+    text-decoration: none;
+    padding: 0.62rem 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid #c6d0ea;
+    color: #14285d;
+    background: #ffffff;
+    transition: all 0.2s ease;
+  }
+
+  .nf-actions a:hover {
+    transform: translateY(-1px);
+    border-color: #8ea4dd;
+    box-shadow: 0 7px 14px rgba(30, 56, 112, 0.14);
+  }
+
+  .nf-actions a.primary {
+    background: #203a84;
+    color: #ffffff;
+    border-color: #203a84;
+  }
+
+  .nf-note {
+    margin: 0;
+    color: #4b5678;
+    font-size: 0.94rem;
+  }
+
+  .pip-area {
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid #e3e8f6;
+  }
+
+  .pip-title {
+    margin: 0 0 0.7rem;
+    font-size: 1.05rem;
+    color: #1c2f6e;
+  }
+
+  .pip-intro {
+    margin: 0 0 1rem;
+    color: #485577;
+    font-size: 0.94rem;
+    line-height: 1.6;
+  }
+
+  .pip-stage {
+    border-radius: 16px;
+    background: linear-gradient(135deg, #eef3ff 0%, #f8fbff 100%);
+    border: 1px solid #dbe4fb;
+    overflow: hidden;
+    padding: 0.8rem;
+  }
+
+  .pip-frame {
+    width: 100%;
+    min-height: 480px;
+    border: 1px solid #d9e0f2;
+    border-radius: 12px;
+    background: #ffffff;
+  }
+
+  .pip-link {
+    display: inline-block;
+    margin-top: 0.7rem;
+    color: #1f46b4;
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .pip-link:hover { text-decoration: underline; }
+
+  .nf-urgent {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #4b5678;
+  }
+
+</style>
+
+<div class="nf-wrap">
+  <section class="nf-panel">
+    <span class="nf-badge">ERROR 404</span>
+    <h1 class="nf-title">We can’t find this page.</h1>
+    <p class="nf-subtitle">
+      The link may be broken, outdated, or moved. Use the primary navigation below to continue exploring Ribocentre Aptamer.
+    </p>
+
+    <div class="nf-actions">
+      <a class="primary" href="{{ site.baseurl }}/">Go to Home</a>
+      <a href="{{ site.baseurl }}/sequences/">Browse Sequences</a>
+      <a href="{{ site.baseurl }}/publications/">View Publications</a>
+    </div>
+
+    <p class="nf-note">Optional resources are provided below as a secondary panel.</p>
+
+    <div class="pip-area">
+      <h2 class="pip-title">Family-Reunion Resource Panel (Secondary)</h2>
+      <p class="pip-intro">
+        The embedded frame below shows the Baobeihuijia website directly as a single reference panel.
+      </p>
+
+      <div class="pip-stage">
+        <iframe
+          class="pip-frame"
+          src="https://www.baobeihuijia.com/"
+          title="Baobeihuijia"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <a class="pip-link" href="https://www.baobeihuijia.com/" target="_blank" rel="noopener noreferrer">Open Baobeihuijia in a new tab ↗</a>
+      </div>
+
+      <p class="nf-urgent">Emergency reminder: for urgent missing-person cases, contact local police immediately (110).</p>
+    </div>
+
+  </section>
+</div>
