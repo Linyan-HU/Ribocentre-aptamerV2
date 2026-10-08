@@ -1,0 +1,28 @@
+/* Aptamer retains its purple identity within the FoldBridge design system. */
+body.fb-aptamer {
+  --fb-primary: #520049;
+  --fb-accent: #9460b2;
+  --fb-soft: #f1e8f5;
+  --fb-border: rgba(147, 96, 178, .34);
+  --fb-ink: #302337;
+  --fb-muted: #736777;
+  --fb-highlight: #d7b8eb;
+  --fb-gradient: linear-gradient(135deg, #fbf5ff 0%, #f5eef9 48%, #fdf6f4 100%);
+  --fb-shadow: 0 18px 50px rgba(82, 0, 73, .07);
+  background: radial-gradient(900px 460px at 10% 0%, #ceaae52b, transparent 60%), var(--fb-gradient);
+}
+.fb-aptamer .fb-content .hero-content h1,
+.fb-aptamer .fb-content .hero-content p { color: var(--fb-primary); }
+.fb-aptamer .fb-content .hero-content .highlight { color: var(--fb-accent); }
+.fb-aptamer .fb-content .stats-bar,
+.fb-aptamer .fb-content .feature-icon { background: var(--fb-soft); color: var(--fb-primary); }
+.fb-aptamer .fb-content .hero-section .container { width: 100%; max-width: 100%; min-width: 0; }
+.fb-aptamer .fb-content .hero-title { font-size: 32px; white-space: normal; overflow-wrap: anywhere; }
+.fb-aptamer .fb-content .hero-subtitle { font-size: 18px; white-space: normal; }
+.fb-aptamer .fb-content .carousel-container { min-width: 0; overflow: hidden; border-radius: 22px; }
+.fb-aptamer .fb-content .hero-section,
+.fb-aptamer .fb-content .carousel-container { overflow-x: clip; }
+@media (max-width: 767px) {
+  .fb-aptamer .fb-content .hero-title { font-size: 26px; }
+  .fb-aptamer .fb-content .hero-subtitle { font-size: 16px; }
+}
